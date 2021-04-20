@@ -121,11 +121,14 @@ class _AddProductScreenState extends State<AddProductScreen> {
                         ),
                         FlatButton(
                           child: Text('Order'),
+                          onPressed: () {},
                         ),
                         FlatButton(
                           child: Text('Pay-In'),
+                          onPressed: () {},
                         ),
                         FlatButton(
+                          onPressed: () {},
                           child: Text('Profile'),
                         ),
                       ],

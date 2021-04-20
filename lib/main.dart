@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         builder: (ctx, auth, _) => MaterialApp(
             title: 'Vendor-App',
             theme: ThemeData(
-              primarySwatch: Colors.orange,
+              primarySwatch: Colors.blue,
             ),
             home: auth.isAuth
                 ? AddProductScreen()
